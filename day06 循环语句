@@ -1,0 +1,8 @@
+list1 = [1,2,3]
+list2 = ['a', 'b', 'c']
+new_list1 = []
+for i in list2:
+    for j in list1:
+           new_list1.append((i,j))
+           print('{}\t{}\t{}\t{}'.format(i,j))
+           表述输出为excel表格的形式
