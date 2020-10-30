@@ -1,0 +1,48 @@
+# x=[(1,2),(2,3),(3,4)]
+# y=[['a','b'],['b','c'],['c','d','e']]
+# for i, j in zip(x,y):
+#  for m in i:
+#   for k in j:
+#   print('{}_{}'.format(m,k))  
+#   print('{}_{}'.format(i,k))  
+   
+
+x=[(1,2),(2,3),(3,4)]
+y=[['a','b'],['b','c'],['c','d','e']]
+for i, j in zip(x,y):
+ for m in i:
+  for k in j:
+   print('{}_{}'.format(m,k))  
+   
+   
+#  两位数代码
+list1=..
+list2=,,,
+for i in list1:
+for j in list2:
+new_list1=(i,j)
+print('{}\t{}'.format(i,j)) 
+
+#  三位数代码
+z=['P','S','Q','T']
+x=[1,2,3,4,5,6,7,8,9,'A','B','C','D','E','F','G','H','Z']
+y=[['01','02','03','04','05','06','07'],['01','02','03','04','05','06'],['01','02','03','04','05','06'],['01','02','03','04','05','06','07','08'],['01','02'],['01','02','03'],['01','02','03','04','05','06','07','08'],['01','02','03','04','05','06','07','08','09',10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34],['01','02','03','04','05','06','07','08','09',10,11,12,13,14,15,16,17,19],['01','02','03','04','05','06','07','08','09',10,11,12,13,14,15],['01','02','03','04','05','06','07','08'],['01','02','03','04','05','06','07','08','09',10,11,12,13,14,15,16],['01','02'],['01','02'],['01','02','03','04'],['01','02'],['01','02','03','04','05','06','07','08'],['01']]
+for m in z:
+for i, j in zip(x,y):
+for k in j:
+print('{}{}{}'.format(m,i,k))
+
+
+
+#  全部内容放在一起
+z=['Domestic PID','Domestic SID','Export PID','Export SID']
+x=['TV','Commercial Display','Audio & Video','Fridge/Chest Freezer','A/C','Washing Machine','Kitchen Big Appliances','Kitchen Small Appliances','Home Devices','Health&Beauty Devices','Smart Home','PED','Wearable Device','Network and Terminal Equipment','Safety System','Engineering Products','Vehicle ED','Non-electrical product']
+y=[['CRT TV','DLP TV','PDP TV','LCD TV','LED TV','OLED TV','Laser TV'],['Wall Display','Advertising Machine','Special Machine','Conference AIO','Education AIO','Monitor'],['Speaker','Microphone','Mobile DVD','Mobile TV','Projector','Radio'],['Single-door Fridge','2-door Fridge','3-door Fridge','Multi-door Fridge','Side-by-Side Fridge','Cross Fridge','Freezer','Ice Bar'],['Wall Mounted A/C','Canibet A/C'],['Top Load Washing Machine ','Front Load Washing Machine','Twin Tub Washing Machine '],['Lampblack Machine','Liquefied Gas Stove','Natural Gas Stove','Sterilizer','Integrated Stove','Electric Water Heater','Gas Water Heater','Dishwasher'],[' Electric Oven','Rice Cooker','Microwave Oven','Induction Cooktop','Electric Pressure Cooker','Multi-Cooker','Electric Kettle','Pancake Maker Machine','Coffee Maker','Health Pot','Air Fryer','Egg Cooker','Meat Grinder','Wall Wrecker','Juicer','Soymilk Maker','Health Pot',' Electric Oven','Rice Cooker','Microwave Oven','Induction Cooktop','Electric Pressure Cooker','Multi-Cooker','Wall Wrecker','Electric Kettle','Soymilk Maker','Pancake Maker Machine','Coffee Maker','Air Fryer','Egg Cooker','Meat Grinder','Food Purifier',' Electric Oven','Rice Cooker'],['Water Purifier','Tea Bar Machine','Air Purifier','Robotic Vacuum','Bidet','Bathroom Master','Vacuum Cleaner','Ironing Machine','Cleaning Protector ','Fan','Cool Fan','Space Heater','Warm air blower','Humidifier','Aroma Diffuser','Mosquito repellent','Water dispenser','Robot assistant'],['Massager','Massage chair','Hair dryer','Electric shaver','Electric toothbrush','Electronic scale','Beauty Massager','Ventilator / respiratMor','Make-up mirror','Fascia gun','Hand warmer','Sterilizer','Foot massage machine','Moxibustion box','Measuring instrument'],['Smart toilet seat','Smart tea table','Smart bedside table','Smart shoe cabinet','Smart washing machine','Doors and Windows control','Switch socket','Sensor'],['Cell phone','Portable Charger','Computer Display','All-in-one computer','Laptop','Keyboard','Mouse','Tablet PC','Headset','Smart watch','Game console','Camera','Story device','Translator device','Voice recorder','Storage device'],['Smart watch','VR'],['IPTV SetTop Box','Network access equipment'],['Camera','Monitoring equipment','Smart door lock','Entrance guard'],['Submersible oil pump','Submersible electric pump'],['T-BOX','Navigation','Driving recorder','Displays','Meter','Smart rearview mirror','Car charger','Charging pile'],['Non-electrical products']]
+
+for m in z: 
+print('{}'.format(m)) 
+for i, j in zip(x,y): 
+print('{}_{}'.format(m,i)) 
+for k in j: 
+print('{}_{}_{}'.format(m,i,k)) 
+
